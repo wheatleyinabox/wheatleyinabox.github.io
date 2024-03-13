@@ -1,0 +1,96 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: black;
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a
+{
+    color: rgba(125,137,161,255);
+    background-color: rgba(222,222,222,255);
+    text-decoration: underline;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.panel {
+  background-color: white;
+  border-width: 2px;
+  border-color: rgb(182, 182, 182);
+  border-style: solid;
+  border-radius: 5px;
+  position: fixed;
+  width: 550px;
+  height: max-content;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-image: linear-gradient(lightgray, rgb(236, 236, 236));
+  width: auto;
+  height: auto;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+#header-logo {
+  height: auto;
+  width: auto;
+  max-width: 125px;
+  max-height: 25px;
+  padding-left: 1%;
+  margin: 0;
+}
+#header-text {
+  font-size: 1.2em;
+  margin-left: auto;
+  text-align: right;
+  padding-right: 2%;
+}
+
+.content {
+  background-color: white;
+  border-width: 2px;
+  border-color: rgb(230, 230, 230);
+  border-style: solid;
+}
+
+.tab-design
+{
+    display: flex;
+}
+#tab-signature
+{
+    margin-right: 0%;
+    margin-bottom: 0%;
+    padding-left: 10px;
+}
+#tab-links
+{
+    margin-left: auto;
+    margin-bottom: 0%;
+    padding-right: 10px;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 3px;
+  margin: 0;
+}
+#footer-text {
+  text-align: center;
+}
