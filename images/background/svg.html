@@ -11,6 +11,21 @@
             background-size: 100% 100%;
             stroke: black;
         }
+
+        /* #top-horizontal {
+
+        }
+        #bottom-horizontal {
+
+        }
+
+        #left-vertical {
+
+        }
+        #right-vertical {
+
+        } */
+
     </style>
 
     <svg class="grid-tunnel-animation" viewBox="0 0 600 600" preserveAspectRatio="none">
@@ -62,25 +77,25 @@
         <!-- ANIMATED LINES -->
             <!-- Top Horizontal -->
                 <!-- START -->
-                    <line x1="175"y1="175" x2="425"y2="175" stroke="red"></line>
+                    <line id="top-horizontal" x1="175"y1="175" x2="425"y2="175" stroke="red"></line>
                 <!-- END -->
-                    <line x1="0"y1="0" x2="600"y2="0" stroke="red"></line>
+                    <line id="top-horizontal" x1="0"y1="0" x2="600"y2="0" stroke="red"></line>
             <!-- Bottom Horizontal -->
                 <!-- START -->
-                    <line x1="175"y1="425" x2="425"y2="425" stroke="red"></line>
+                    <line id="bottom-horizontal" x1="175"y1="425" x2="425"y2="425" stroke="red"></line>
                 <!-- END -->
-                    <line x1="0"y1="600" x2="600"y2="600" stroke="red"></line>
+                    <line id="bottom-horizontal" x1="0"y1="600" x2="600"y2="600" stroke="red"></line>
 
             <!-- Left Vertical -->
                 <!-- START -->
-                    <line x1="175"y1="175" x2="175"y2="425" stroke="blue"></line>
+                    <line id="left-vertical" x1="175"y1="175" x2="175"y2="425" stroke="blue"></line>
                 <!-- END -->
-                    <line x1="0"y1="0" x2="0"y2="600" stroke="blue"></line>
+                    <line id="left-vertical" x1="0"y1="0" x2="0"y2="600" stroke="blue"></line>
             <!-- Right Vertical -->
                 <!-- START -->
-                    <line x1="425"y1="175" x2="425"y2="425" stroke="blue"></line>
+                    <line id="right-vertical" x1="425"y1="175" x2="425"y2="425" stroke="blue"></line>
                 <!-- END -->
-                    <line x1="600"y1="0" x2="600"y2="600" stroke="blue"></line>
+                    <line id="right-vertical" x1="600"y1="0" x2="600"y2="600" stroke="blue"></line>
     </svg>
 
 </body>
