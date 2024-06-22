@@ -11,21 +11,6 @@
             background-size: 100% 100%;
             stroke: black;
         }
-
-        /* #top-horizontal {
-
-        }
-        #bottom-horizontal {
-
-        }
-
-        #left-vertical {
-
-        }
-        #right-vertical {
-
-        } */
-
     </style>
 
     <svg class="grid-tunnel-animation" viewBox="0 0 600 600" preserveAspectRatio="none">
@@ -76,10 +61,76 @@
     
         <!-- ANIMATED LINES -->
             <!-- Top Horizontal -->
-                <!-- START -->
-                    <line id="top-horizontal" x1="175"y1="175" x2="425"y2="175" stroke="red"></line>
-                <!-- END -->
-                    <line id="top-horizontal" x1="0"y1="0" x2="600"y2="0" stroke="red"></line>
+                    <line id="top-horizontal" x1="175"y1="175" x2="425"y2="175">
+                        <!-- 62.5 = Grid Sqaure -->
+                        <animate 
+                            attributeName="x1" 
+                            values="175;112.3"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate 
+                            attributeName="y1" 
+                            values="175;112.3"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate 
+                            attributeName="x2" 
+                            values="425;487.5"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate 
+                            attributeName="y2" 
+                            values="175;112.5"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                    </line>
+
+                    <line id="top-horizontal" x1="112.5"y1="112.5" x2="487.5"y2="112.5">
+                        <animate
+                            attributeName="x1"
+                            values="112.5;50"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y1"
+                            values="112.5;50"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="x2"
+                            values="487.5;550"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y2"
+                            values="112.5;50"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                    </line>
+
+                    <line id="top-horizontal" x1="50"y1="50" x2="550"y2="50">
+                        <animate
+                            attributeName="x1"
+                            values="50;0"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y1"
+                            values="50;0"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="x2"
+                            values="550;600"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y2"
+                            values="50;0"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                    </line>
+
             <!-- Bottom Horizontal -->
                 <!-- START -->
                     <line id="bottom-horizontal" x1="175"y1="425" x2="425"y2="425" stroke="red"></line>
