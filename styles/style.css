@@ -14,7 +14,11 @@
 /* BODY */
 body
 {
-    background-color: black;
+    background-image: url(/images/grid-tunnel.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
 /* PANEL */
@@ -29,7 +33,7 @@ body
     background-color: #f7f7f7;
     border-radius: 2px;
     border: 2px solid #d1d1d1;
-    width: 700px;
+    width: 55%;
     min-width: 350px;
 }
 
