@@ -9,7 +9,8 @@
     <style>
         .grid-tunnel-animation {
             background-size: 100% 100%;
-            stroke: black;
+            background-color: black;
+            stroke: rgba(255, 255, 255, 0.132);
         }
     </style>
 
@@ -201,16 +202,144 @@
                     </line>
 
             <!-- Left Vertical -->
-                <!-- START -->
-                    <line id="left-vertical" x1="175"y1="175" x2="175"y2="425" stroke="blue"></line>
-                <!-- END -->
-                    <line id="left-vertical" x1="0"y1="0" x2="0"y2="600" stroke="blue"></line>
+                    <line id="left-vertical" x1="175"y1="175" x2="175"y2="425">
+                        <animate
+                            attributeName="x1"
+                            values="175;112.5"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y1"
+                            values="175;112.5"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="x2"
+                            values="175;112.5"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y2"
+                            values="425;487.5"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                    </line>
+
+                    <line id="left-vertical" x1="112.5"y1="112.5" x2="112.5"y2="487.5">
+                        <animate
+                            attributeName="x1"
+                            values="112.5;50"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y1"
+                            values="112.5;50"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="x2"
+                            values="112.5;50"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y2"
+                            values="487.5;550"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                    </line>
+
+                    <line id="left-vertical" x1="50"y1="50" x2="50"y2="550">
+                        <animate
+                            attributeName="x1"
+                            values="50;0"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y1"
+                            values="50;0"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="x2"
+                            values="50;0"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y2"
+                            values="550;600"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                    </line>
             
             <!-- Right Vertical -->
-                <!-- START -->
-                    <line id="right-vertical" x1="425"y1="175" x2="425"y2="425" stroke="blue"></line>
-                <!-- END -->
-                    <line id="right-vertical" x1="600"y1="0" x2="600"y2="600" stroke="blue"></line>
+                    <line id="right-vertical" x1="425"y1="175" x2="425"y2="425">
+                        <animate
+                            attributeName="x1"
+                            values="425;487.5"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y1"
+                            values="175;112.3"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="x2"
+                            values="425;487.5"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y2"
+                            values="425;487.5"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                    </line>
+
+                    <line id="right-vertical" x1="487.5"y1="112.3" x2="487.5"y2="487.5">
+                        <animate
+                            attributeName="x1"
+                            values="487.5;550"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y1"
+                            values="112.3;50"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="x2"
+                            values="487.5;550"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y2"
+                            values="487.5;550"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                    </line>
+
+                    <line id="right-vertical" x1="550"y1="50" x2="550"y2="550">
+                        <animate
+                            attributeName="x1"
+                            values="550;600"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y1"
+                            values="50;0"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="x2"
+                            values="550;600"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                        <animate
+                            attributeName="y2"
+                            values="550;600"
+                            dur="1s"
+                            repeatCount="indefinite" />
+                    </line>
     </svg>
 
 </body>
