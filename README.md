@@ -9,7 +9,7 @@ Professional grade website to show off all my web dev and design skills! :D
 4. Implement Layout & Basic Functions
 5. Add some more spice
 
-### Running Enviroment
+### Running Environment
 ```
 cd dev-port
 npm i
