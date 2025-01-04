@@ -1,4 +1,4 @@
-# Web Dev Portfolio
+# Web Development & Graphic Design Portfolio
 
 Professional grade website to show off all my web dev and design skills! :D 
 
