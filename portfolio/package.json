@@ -1,10 +1,10 @@
 {
-  "name": "dev-port",
+  "name": "portfolio",
   "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "homepage": "https://wheatleyinabox.github.io/dev-portfolio/",
+    "homepage": "https://wheatleyinabox.github.io/portfolio/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
