@@ -16,7 +16,7 @@ export default {
         xs: "0.25rem", // 4px
         s: "0.5rem", // 8px
         m: "0.75rem", // 12px
-        l: "1rem", // 16pc
+        l: "1rem", // 16px
         xl: "1.25rem", // 20px (base)
         xxl: "1.5rem", // 24px
       },
