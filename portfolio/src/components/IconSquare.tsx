@@ -1,7 +1,7 @@
 export const IconSquare = () => {
   return (
     <div className="">
-        <img src="" alt="Logo" />
+        Icon
         {/* 
         
             Icon (absolute)
