@@ -39,7 +39,9 @@ export const IconSquare = ({ icon, href, className = '' }: IconSquareProps) => {
   };
 
   return (
-    <div onClick={onClick} className="flex items-center justify-center p-1 bg-iconBgPrimary rounded">
+    <div onClick={onClick} 
+         className="flex items-center justify-center p-1 bg-iconBgPrimary rounded cursor-pointer transition-transform hover:animate-bounce"
+    >
       {getIcon()}
     </div>
   );
