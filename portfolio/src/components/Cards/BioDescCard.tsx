@@ -6,12 +6,12 @@ import { blurb } from "./../../info.ts"
 export const BioDescCard = () => {
   return (
     <div className="flex flex-row flex-wrap gap-y-4 bg-surfacePrimary shadow-md">
-        <div className='flex flex-col gap-5 p-xl w-[400px] justify-center'>
+        <div className='flex flex-col gap-5 p-xl w-[25rem] justify-center'>
             <p className="text-paragraph">{blurb.bio}</p>
             <p className="text-paragraph">{blurb.description}</p>
         </div>
         <img
-            className="object-cover w-[196.5px] h-auto"
+            className="object-cover w-[12.281rem] h-auto"
             src={Keyboard}
             alt="Image"
         />
