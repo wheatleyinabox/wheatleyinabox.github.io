@@ -9,3 +9,8 @@ export const profile = {
       resume: "https://github.com/wheatleyinabox/portfolio/raw/main/PDF/Valen-DeLeon-Resume.pdf"
     }
   };
+
+export const blurb = {
+  bio: "Specialized in Frontend Development and Graphic & Digital Design",
+  description: "Passionate in creating interactive and visual interesting digital experiences for the Internet to explore and enjoy!"
+}

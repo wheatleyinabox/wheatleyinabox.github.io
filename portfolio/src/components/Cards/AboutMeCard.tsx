@@ -4,7 +4,7 @@ import { profile } from "./../../info.ts"
 
 export const AboutMeCard = () => {
   return (
-    <div className="flex flex-col gap-y-4 bg-surfacePrimary shadow-md p-l">
+    <div className="flex flex-col gap-y-4 bg-surfacePrimary shadow-md p-l h-fit">
       <img
         className="object-cover object-[center_center] w-full h-[200px] rounded"
         src={SelfImage}
