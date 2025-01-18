@@ -1,5 +1,6 @@
 import { AboutMeCard } from "./components/Cards/AboutMeCard";
 import { BioDescCard } from "./components/Cards/BioDescCard";
+import { SkillsCard } from "./components/Cards/SkillsCard";
 
 function App() {
   return (
@@ -23,9 +24,10 @@ function App() {
             <AboutMeCard/>
             <div className="flex flex-col gap-y-5 h-full">
                 <BioDescCard/>
+                <SkillsCard/>
             </div>
           </div>
-          
+
         </div>
 
       </div>
