@@ -1,6 +1,6 @@
 # Web Development & Design Portfolio
 
-Professional grade website to show off all my web dev and design skills! :D 
+Professional grade website to exemplify all my frontend and web design skills! :D 
 
 1. React + TS + Vite Project Set Up ✅
 2. Figma & Responsive Design ✅
