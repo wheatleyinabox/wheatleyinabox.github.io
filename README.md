@@ -12,7 +12,7 @@ Professional grade website to exemplify all my frontend and web design skills! :
 
 ### Running Environment
 ```
-cd dev-port
+cd portfolio
 npm i
 npm run build
 npm run dev
