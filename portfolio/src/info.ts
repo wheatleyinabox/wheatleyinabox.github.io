@@ -11,6 +11,6 @@ export const profile = {
   };
 
 export const blurb = {
-  bio: "Specialized in Frontend Development and Graphic & Digital Design",
+  bio: "Specialized in Frontend Development and Creative Digital Media",
   description: "Passionate in creating interactive and visual interesting digital experiences for the Internet to explore and enjoy!"
 }
